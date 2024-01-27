@@ -1,0 +1,39 @@
+body {
+    background-color: #ECE7E7;
+}
+.image-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black 1px solid;
+    width: auto;
+    padding: 20px;
+}
+.image-slider img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.header h1{
+    display: flex;
+    justify-content: center;
+    color: #F85E95;
+    font-family: 'Inter';
+}
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.who-we-are {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+}
+.menu {
+    display: flex;
+    flex-direction:  column;
+    width: 300px;
+}
